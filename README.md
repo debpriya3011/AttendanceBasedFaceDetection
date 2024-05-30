@@ -1,4 +1,4 @@
-Overview
+Overview :
 This project is a Facial Recognition-Based Attendance System that leverages data science and machine learning to automate attendance tracking. The application captures and analyzes facial data to offer a seamless, contactless, and accurate attendance solution. The core technologies used in this application include the dlib library for facial recognition, PyQt5 for the user interface, SQL Server for database management, and Twilio for SMS notifications.
 
 Features
