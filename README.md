@@ -81,3 +81,58 @@ Future Enhancements
 Real-Time Reporting: Implement real-time reporting for immediate insights.
 Multi-Camera Support: Add support for multiple cameras.
 Cloud Integration: Integrate with cloud services for enhanced scalability.
+
+
+You may get errors like this :
+![image](https://github.com/user-attachments/assets/ea38fbd6-5ccc-4daa-9247-8645fca665e2)
+
+To solve:
+        You must use Visual Studio to build a python extension on windows.  If you
+        are getting this error it means you have not installed Visual C++.  Note
+        that there are many flavors of Visual Studio, like Visual Studio for C#
+        development.  You need to install Visual Studio for C++.
+
+        STEP 1:
+  Download CMake from official website      
+        
+  ![image](https://github.com/user-attachments/assets/2ace0419-8bd3-46c9-b684-f40002afdd5a)
+
+  pip install cmake 
+
+        STEP 2:
+![image](https://github.com/user-attachments/assets/80ec8fea-870d-458a-9371-7a8ea5932515)
+
+  pip install --upgrade pip setuptools
+
+        STEP3:
+install VS Build Tools with Desktop Development C++
+        ![image](https://github.com/user-attachments/assets/2d1e2156-44db-4932-a6a4-95e49fb9c8e8)
+
+  ![image](https://github.com/user-attachments/assets/9611e8c0-1328-4024-b7d1-e8d706adb80a)
+
+
+
+        STEP 4:
+Make sure you have added CMake in environment variables
+
+![image](https://github.com/user-attachments/assets/0fd3eeb0-707d-40df-bed4-8fed02cc8457)
+
+        STEP 5:
+  Download the Dlib .whl file for the Python version
+  
+  https://github.com/z-mahmud22/Dlib_Windows_Python3.x
+  
+        STEP 6:
+  change directories to where YOU saved the .whl file      
+
+        STEP 7:
+  run pip install [.whl filename (including extension)]      
+  
+![image](https://github.com/user-attachments/assets/0114bafe-f6ec-4830-9ce9-65876cea3f2b)
+
+        
+        
+
+  
+
+
